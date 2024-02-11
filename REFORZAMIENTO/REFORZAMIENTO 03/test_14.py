@@ -3,6 +3,7 @@ módulo) el módulo tendrá una función para ingresar nombres y
 apellidos, una función para pedir el tipo de seguro que tiene y otra
 función para indicar si es mayor de edad o no (pedir la edad desde
 consola)"""
+
 class Seguro:
     def __init__(self, nombre=None, edad=None):
         self.nombre = nombre
@@ -29,4 +30,3 @@ persona_1.edad = int(input("Ingrese su edad: "))
 seguro = persona_1.pedir_tipo_seguro()
 
 print("Usted {} tiene {} años y tiene un seguro de vida de tipo {}".format(persona_1.nombre, persona_1.edad, seguro))
-
