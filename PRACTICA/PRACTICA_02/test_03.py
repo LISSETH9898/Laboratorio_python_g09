@@ -28,7 +28,7 @@ def division():
         try:
             num1, num2 = ingresar_datos()
             resultado = num1 / num2
-            print("El resultado de la división es:", resultado)
+            print("El resultado de la división es:".format(resultado))
             break
         except ZeroDivisionError:
             print("Error: No se puede dividir entre cero.")
@@ -38,7 +38,7 @@ def suma_incorrecta():
         try:
             num1, num2 = ingresar_datos()
             resultado = num1 + num2
-            print("La suma de los números es:", resultado)
+            print("La suma de los números es:".format(resultado))
             break
         except ValueError:
             print("Error: Ingrese números válidos.")
